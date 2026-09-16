@@ -1,0 +1,7 @@
+PyQt5>=5.15.0
+pytesseract>=0.3.10
+Pillow>=9.0.0
+mss>=6.1.0
+deep-translator>=1.11.0
+numpy>=1.21.0
+translators>=5.8.0

@@ -1,0 +1,46 @@
+========================================
+  Tesseract OCR 安装指南
+========================================
+
+【下载方式】
+
+方法1（推荐）：
+1. 双击 "下载Tesseract.url" 文件
+2. 在打开的页面找到 "Tesseract at UB Mannheim" 部分
+3. 点击第一个 Windows 安装包链接下载
+   文件名：tesseract-ocr-w64-setup-x.x.x.exe
+
+方法2：
+访问 https://github.com/UB-Mannheim/tesseract/wiki
+下载最新版本的 Windows 安装包
+
+方法3：
+访问 SourceForge：https://sourceforge.net/projects/tesseract-ocr.mirror/
+
+【安装步骤】
+
+1. 双击下载的 .exe 安装文件
+
+2. 安装向导中：
+   ✓ 确保勾选 "English" 语言包
+   ✓ 使用默认路径：C:\Program Files\Tesseract-OCR
+
+3. 点击 Install 完成安装
+
+4. 安装完成后，双击 run.bat 启动翻译程序
+
+【验证安装】
+
+按 Win+R，输入 cmd，回车
+输入：tesseract --version
+如果显示版本信息，说明安装成功
+
+【使用翻译程序】
+
+1. 双击 run.bat 启动程序
+2. 点击 "鼠标框选截图区域" 按钮
+3. 用鼠标拖动框选屏幕上的英文区域
+4. 点击 "开始翻译" 开始实时翻译
+5. 查看翻译结果
+
+========================================
